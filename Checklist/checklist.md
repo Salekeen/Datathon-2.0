@@ -1,4 +1,5 @@
 # Overview Steps
+
 1. Framing the problem. As its in kaggle I'm assuming, the problem definition will be easy to understand.
 2. Getting The data
 3. Data Exploration to gain insights
@@ -10,7 +11,7 @@ Repeat step 3-6 until accuracy get to the desired result.
 
 ---
 
-## Problem Framing:
+## Problem Framing
 
 *Things to consider:*
 
@@ -26,6 +27,7 @@ Repeat step 3-6 until accuracy get to the desired result.
 5. List the assumptions we are making.
 
 ## Data Collection
+
 As it will be hosted on kaggle I dont think we need to do any data integration/fusion from different databases. Just download and start working.
 
 ## Data Exploration
@@ -33,7 +35,7 @@ As it will be hosted on kaggle I dont think we need to do any data integration/f
 Good Practice: Create a copy of the dataset and use a single notebook to do it.
 
 1. Get to know the features
-    - Create Data Dictionary Table for future reference. 
+    - Create Data Dictionary Table for future reference.
     - Check the datatypes for each feature
     - % of missing values
     - outliers detection
@@ -60,7 +62,8 @@ Good Practice: Create a copy of the dataset and use a single notebook to do it.
 
 4. Figure out the data transformations that might be needed for each features.
 
-## Data Preprocessing:
+## Data Preprocessing
+
 1. Data Cleaning:
     - Remove/Fill in missing values if necessary
     - Fix/Remove outliers
@@ -74,55 +77,21 @@ Good Practice: Create a copy of the dataset and use a single notebook to do it.
 6. Feature Selection:
     - Find out the most important features(use Decision tree's feature importance method). Drop non-contributing features if those features are just noise and not help you to generalize.
 
-## Model Building:
+## Model Building
+
 1. Building atleast 5 models from different categories(Tree Based, Linear, SVM, Bayesian) with default parameters or change it based on educated guess.
 2. Do Cross validation to measure the performance of each model
 3. Analyze types of error for each model.
-4. Recap the preprocessing steps and change if you think it will improve accuracy. 
+4. Recap the preprocessing steps and change if you think it will improve accuracy.
 5. Find out best two/three models.
 
+## Fine Tuning
 
-## Fine Tuning:
 1. Plot Learning Curve
 2. Plot Validation Curve
 3. Tune the hyperparameters based on Bias-Variance trade-off and doing visual analysis on the curves you have plotted.
 4. Ensemble the best 2/3 tuned models.
 
-## Check against Test set!
+## Check against Test set
+
 1. If happy stop,or repeat from Preprocessing changing where necessary!
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
