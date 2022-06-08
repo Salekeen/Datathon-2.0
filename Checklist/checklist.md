@@ -67,6 +67,7 @@ Good Practice: Create a copy of the dataset and use a single notebook to do it.
 1. Data Cleaning:
     - Remove/Fill in missing values if necessary
     - Fix/Remove outliers
+    - Remove Duplicates if exist.
 
 2. Normalize/ Standarization if necessary(if my model uses some kind of distance metrics, we have to use it)
 3. Encode Categorical features to numerical and Binning Numerical to categorical if necessary.
