@@ -16,6 +16,10 @@ Day 01:
    - The distribution of numerical variables are not same, we have to normalize if no outliers are there or we have to standarize if outliers are there! consider(n1,n2,[n4:n11],n14): these 11 are truly quantitatives!
 3. Outliers: There's outliers in n8,n9,n10
 
+4. Correlation:
+   - n7:n10
+   - n1:n2
+
 
 #### Things to DO NOW:
 - Delete the features containing missing values
